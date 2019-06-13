@@ -9,8 +9,13 @@ func main() {
 	y := "James Bond"
 	z := true
 
+	// part 2
+
+	//separate statements
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
 
+	//single statement
+	fmt.Println(x, y, z)
 }
