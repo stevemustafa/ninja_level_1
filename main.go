@@ -7,6 +7,7 @@ type myInt int
 func main() {
 
 	var x = 42
-	fmt.Printf("%T\n", x)
+	fmt.Printf("%T", x)
+	fmt.Println(x)
 
 }
